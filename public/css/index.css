@@ -3,22 +3,32 @@
   width: 50%;
   height: 30%;
   display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .ground {
   height: 1px;
   background: brown;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  align-self: end;
 }
 
 .dinosaur {
   height: 20px;
   width: 20px;
   background: blue;
+  grid-column: 4;
+  grid-row: 2;
+  align-self: end;
 }
 
 .cactus {
   height: 20px;
   width: 20px;
   background: green;
-  float: right;
+  grid-column: -10;
+  grid-row: 2;
+  align-self: end;
 }
