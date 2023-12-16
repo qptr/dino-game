@@ -34,3 +34,8 @@
   grid-row: 2;
   align-self: end;
 }
+
+.cactus#cactus-2 {
+  visibility: collapse;
+  grid-column: 50;
+}

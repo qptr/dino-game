@@ -14,11 +14,20 @@ function jump(event) {
 function gameCourse() {
     document.getElementById("start-button").disabled = true;
     const cactus = document.getElementById("cactus");
+    const cactus2 = document.getElementById("cactus-2");
+    propelCactus(cactus);
+    setTimeout(function () {
+        cactus2.style.visibility = "visible";
+        propelCactus(cactus2);
+    }, 800);
+}
+
+function propelCactus(cactus) {
     setInterval(function () {
         if (window.getComputedStyle(cactus).gridColumn > 1) {
             cactus.style.gridColumn = window.getComputedStyle(cactus).gridColumn - 1;
         } else {
             cactus.style.gridColumn = 50;
         }
-    }, 200)
+    }, 100)
 }
