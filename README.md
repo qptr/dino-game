@@ -2,7 +2,7 @@
 
 simple pastures
 
-![simple pastures](https://github.com/qptr/dino-game/assets/71076330/92f7913f-81ec-41af-b075-d3cfee67ce66)
+![output](https://github.com/qptr/dino-game/assets/71076330/f3b51846-5556-47e8-be0f-ffa035bd1a54)
 
 ## Development
 
