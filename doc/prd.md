@@ -3,8 +3,9 @@
 ### Project objectives
 
 - i want to make a game
-- manage the project
-- learn (some) javascript
+- push water-tight features quickly
+- manage scope creep
+- learn some javascript and css along the way
 
 ### Project scope
 
@@ -19,6 +20,7 @@
 
 ### Tech
 - html
+- css
 - javascript
 
 ### Features
