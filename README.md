@@ -2,6 +2,8 @@
 
 simple pastures
 
+![simple pastures](https://github.com/qptr/dino-game/assets/71076330/92f7913f-81ec-41af-b075-d3cfee67ce66)
+
 ## Development
 
 - There's no server right now to keep things basic
