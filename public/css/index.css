@@ -28,7 +28,7 @@
   height: 20px;
   width: 20px;
   background: green;
-  grid-column: -10;
+  grid-column: 45;
   grid-row: 2;
   align-self: end;
 }
