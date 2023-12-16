@@ -4,7 +4,7 @@
   height: 30%;
   display: grid;
   grid-template-columns: repeat(50, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
 }
 
 .ground {
