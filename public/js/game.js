@@ -8,10 +8,11 @@ function jump(event) {
     dinosaur.style.gridRow = 1;
     setTimeout(function () {
         dinosaur.style.gridRow = 2;
-    }, 300)
+    }, 400)
 }
 
 function gameCourse() {
+    document.getElementById("start-button").disabled = true;
     const cactus = document.getElementById("cactus");
     setInterval(function () {
         if (window.getComputedStyle(cactus).gridColumn > 1) {
@@ -19,6 +20,5 @@ function gameCourse() {
         } else {
             cactus.style.gridColumn = 50;
         }
-        console.log(window.getComputedStyle(cactus).gridColumn)
     }, 200)
 }
